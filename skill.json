@@ -1,0 +1,78 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Provides information about you family members",
+          "examplePhrases": [
+            "Alexa open my family",
+            "Who are the grand parents of alice poller",
+            "where is the thing for changing"
+          ],
+          "keywords": [
+            "Family"
+          ],
+          "name": "my family",
+          "description": "Helping you stay in touch with your family members and also get to know other members of your family like people who share your last name, grand children of certain family member.",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "{\"ask_dist_username\":\"\",\"ask_dist_password\":\"\",\"ask_dist_testing_instructions\":\"Alexa open my family\"}",
+      "category": "FRIENDS_AND_FAMILY",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:568237231166:function:dca20449-5253-441e-b231-1f5db7769a1b:Release_0"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ],
+        "locales": {},
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:568237231166:function:dca20449-5253-441e-b231-1f5db7769a1b:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:568237231166:function:dca20449-5253-441e-b231-1f5db7769a1b:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:568237231166:function:dca20449-5253-441e-b231-1f5db7769a1b:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "termsOfUseUrl": "https://www.amazon.com/gp/help/customer/display.html?nodeId\u003dGX7NJQ4ZB8MHFRNJ",
+          "privacyPolicyUrl": "https://www.amazon.com/gp/help/customer/display.html?nodeId\u003dGX7NJQ4ZB8MHFRNJ#GUID-8966E75F-9B92-4A2B-BFD5-967D57513A40__SECTION_467C686A137847768F44B619694D3F7C"
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false,
+        "isAmazonAssociatesOnAlexaEnabled": false
+      },
+      "usesPersonalInfo": false
+    }
+  }
+}

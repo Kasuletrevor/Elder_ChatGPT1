@@ -1,0 +1,313 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "my family",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "LastNameIntent",
+          "slots": [
+            {
+              "name": "lastname",
+              "type": "lastname"
+            }
+          ],
+          "samples": [
+            "family members with  last name {lastname}",
+            "which family members share last name {lastname}",
+            "which family members share my last name",
+            "who are the family members who share my last name",
+            "me last name",
+            "my last name",
+            "who shares my last name",
+            "who are family members with  last name {lastname}",
+            "{lastname} family",
+            "people with last name {lastname}"
+          ]
+        },
+        {
+          "name": "GetGrandParentsIntent",
+          "slots": [
+            {
+              "name": "person",
+              "type": "person"
+            }
+          ],
+          "samples": [
+            "who are the grand parents to {person}",
+            "get me my grand parents",
+            "can you tell my grand parents",
+            "can you get me my grand parents",
+            "show me my grand parents",
+            "give my grand parents",
+            "can you give me grand parents to {person}",
+            "tell me grand parents to {person}",
+            "give me grand parents to {person}",
+            "get me grand parents to {person}",
+            "which parents are grand parents of {person}",
+            "give me grand parents of {person}",
+            "get me grand parents of {person}",
+            "show me grand parents to {person}",
+            "show me grand parents of {person}",
+            "grand parents of me",
+            "grand parents to {person}",
+            "mine grand parents",
+            "which parents are grand parents to {person}",
+            "Which people are my grand parents",
+            "my grand parents",
+            "i want to know my grand parents",
+            "Tell me my grand parents",
+            "who are my grand parents",
+            "list grand parents of {person}",
+            "Does have {person} have grand parents",
+            "{person} grand parents",
+            "tell me grand parents of {person}",
+            "who are the grand parents of {person}",
+            "grand parents of {person}"
+          ]
+        },
+        {
+          "name": "GetGrandChildrenIntent",
+          "slots": [
+            {
+              "name": "person",
+              "type": "person"
+            }
+          ],
+          "samples": [
+            "i want to know about grand kids of {person}",
+            "i want to know about my grand kid",
+            "i want to know my grand child",
+            "I want to know my grand children",
+            "Where are grand kids of {person}",
+            "grand kids of {person}",
+            "where are my grand kids",
+            "where is my grand child",
+            "where are grand children of {person}",
+            "Where are my grand children",
+            "Did {person} have any grand children",
+            "Did i have any grand children",
+            "Am looking for my grand children",
+            "Am looking for grand children of {person}",
+            "show me grand children of {person}",
+            "Show me my grand childrem",
+            "tell me about my grand children",
+            "tell me about me children",
+            "can you tell me about {person} grand children",
+            "can you give me {person} grand children",
+            "can you get me about {person} grand children",
+            "get me about {person} grand children",
+            "Does {person} have grand child",
+            "Does {person} have grand children",
+            "who are grand children of {person}",
+            "who is my grand child",
+            "who are my grand children",
+            "Do i have any grand children",
+            "who are the grand children of {person}",
+            "give me {person} grand children",
+            "{person} grand children",
+            "grand children of {person}",
+            "Tell me about {person} grand children"
+          ]
+        },
+        {
+          "name": "GetAgeIntent",
+          "slots": [
+            {
+              "name": "person",
+              "type": "person"
+            }
+          ],
+          "samples": [
+            "how old is {person} now",
+            "what is the age of {person}",
+            "how old are {person} today",
+            "{person} old",
+            "how old {person} today",
+            "what {person} be today",
+            "how old is {person} today",
+            "How old will {person} be today",
+            "what will {person} be today",
+            "what is the age {person}",
+            "how old is {person}"
+          ]
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "CaptureQuestionIntent",
+          "slots": [
+            {
+              "name": "question",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "where {question}",
+            "what is {question}",
+            "find {question}",
+            "when is {question} ",
+            "where is {question}",
+            "when {question}",
+            "what {question}"
+          ]
+        },
+        {
+          "name": "FamilyNewsIntent",
+          "slots": [],
+          "samples": [
+            "latest family news",
+            "do i have family news",
+            "read my family news",
+            "family news"
+          ]
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Adams"
+              }
+            },
+            {
+              "name": {
+                "value": "Boomsma"
+              }
+            },
+            {
+              "name": {
+                "value": "West"
+              }
+            },
+            {
+              "name": {
+                "value": "Poller"
+              }
+            },
+            {
+              "name": {
+                "value": "Burns"
+              }
+            }
+          ],
+          "name": "lastname"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "brian ebiyau"
+              }
+            },
+            {
+              "name": {
+                "value": "sarah burns"
+              }
+            },
+            {
+              "name": {
+                "value": "henry west"
+              }
+            },
+            {
+              "name": {
+                "value": "josephine west"
+              }
+            },
+            {
+              "name": {
+                "value": "frank west"
+              }
+            },
+            {
+              "name": {
+                "value": "natalie poller"
+              }
+            },
+            {
+              "name": {
+                "value": "kurt poller"
+              }
+            },
+            {
+              "name": {
+                "value": "billy poller"
+              }
+            },
+            {
+              "name": {
+                "value": "alice poller"
+              }
+            },
+            {
+              "name": {
+                "value": "mark poller"
+              }
+            },
+            {
+              "name": {
+                "value": "victoria poller"
+              }
+            },
+            {
+              "name": {
+                "value": "peter  burns"
+              }
+            },
+            {
+              "name": {
+                "value": "tom burns"
+              }
+            }
+          ],
+          "name": "person"
+        }
+      ]
+    }
+  },
+  "version": "24"
+}
